@@ -604,6 +604,13 @@ h2 {
   text-align: center;
 }
 
+.grace-nav li {
+  list-style: none;
+  padding: 20px 15px;
+  display: inline-block;
+  color: #3F3B3A;
+}
+
 .header-screen {
   margin-top: 40px;
   width: 100%;

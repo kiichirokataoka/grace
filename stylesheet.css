@@ -1,0 +1,567 @@
+body {
+  font-size: 16px;
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.container {
+  width: cover;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+#header {
+  width: 1080px;
+  height: 100px;
+  padding: 0px 0px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.header-logo {
+  float: left;
+  overflow: hidden;
+  display: block;
+}
+
+.grace-nav {
+  float: right;
+}
+
+.grace-nav li {
+  float: left;
+  list-style: none;
+  padding: 20px 20px;
+  display: inline-block;
+  color: #3F3B3A;
+}
+
+.header-screen {
+  height: 700px;
+  position: relative;
+/*  background-color: #c1e1f3; */
+}
+
+
+/* スライダー */
+.grace-img {
+  border-radius: 15px;
+}
+
+.slider{
+    width:1080px;
+    height:500px;
+    margin:0 auto;
+    position:absolute;
+}
+.slider ul{
+    margin: 0;
+    padding-left: 0;
+    list-style:none;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+}
+.slider ul li{
+    width:800px;
+    height:500px;
+    position:absolute;
+    top:0;
+    left:100px;
+    animation-iteration-count:infinite;
+    animation-duration:24s;
+}
+
+/* スライダーアニメーション　*/
+
+.slider ul li:nth-child(1){
+    animation-name:slider;
+    animation-delay:-3s;
+}
+.slider ul li:nth-child(2){
+    animation-name:slider;
+    animation-delay:5s;
+    opacity:0;
+}
+.slider ul li:nth-child(3){
+    animation-name:slider;
+    animation-delay:13s;
+    opacity:0;
+}
+
+@keyframes slider{
+    0%{
+        opacity:0;
+    }
+    20.83%{
+        opacity:1;
+    }
+    33.33%{
+        opacity:1;
+    }
+    45.83%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}　
+
+/* スライダー終わり */
+
+.header-copy {
+  position: absolute;
+  padding: 0;
+}
+
+.square {
+   width: 500px;
+   height: 500px;
+   left: 650px;
+   top: 200px;
+   border-radius: 15px;
+   background-color: #ffffff;
+   position: absolute;
+   opacity: 0.8;
+
+}
+
+.header-copy span {
+  position: relative;
+  left: 720px;
+  top: 250px;
+  font-size: 46px;
+  color: #3F3B3A;
+}
+
+.header-copy p {
+  position: relative;
+  left: 720px;
+  top: 320px;
+  font-size: 20px;
+  color: #3F3B3A;
+}
+
+/* ここからコンテンツ */
+article {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.whatsnew {
+  margin: 100px auto;
+  height: 800px;
+}
+
+.whatsnew h1 {
+  margin-bottom: 0;
+/*  background-color: #f3c1f2; */
+}
+
+.whatsnew-contents {
+  position: relative;
+  padding: 50px 0;
+  }
+
+
+
+/* ホバーエフェクト */
+
+.contents-animation {
+  position: absolute;
+	overflow: hidden;
+	width: 700px;
+	height: 400px;
+  left: 50px;
+  border-radius: 15px;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+  transition-duration: 1.5s;
+}
+
+.contents-animation:hover {
+  transform:translateY(-15px);
+  transition-duration: 1.5s;
+}
+
+.contents-animation img {
+  display: block;
+	transition-duration: 1.5s;
+}
+
+.contents-animation img:hover {
+	transform: scale(1.1);
+	transition-duration: 1.5s;
+}
+
+/* ホバーエフェクト 終わり */
+
+
+.new-square {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 540px;
+  top: 250px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+.whatsnew-copy span {
+  position: relative;
+  left: 620px;
+  top: 250px;
+  font-size: 36px;
+  color: #3F3B3A;
+}
+
+.whatsnew-copy p {
+  position: relative;
+  left: 620px;
+  top: 320px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #3F3B3A;
+}
+
+/* btn css */
+
+.contents_btn {
+	display: block;
+	position: relative;
+	width: 160px;
+  left: 620px;
+  top: 370px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #3F3B3A;
+	background: #fff;
+	border:1px solid #3F3B3A;
+  transition: all 1.2s;
+}
+
+.contents_btn:hover {
+	 background: #3F3B3A;
+         color: #fff;
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+/* カテゴリー */
+
+.category {
+/*  background-color: #f3c1f2;*/
+  position: relative;
+}
+
+.category h1 {
+  font-size:56px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.category p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3F3B3A;
+}
+
+.category-contents {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.category-contents h2 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.category-contents p {
+  font-size: 12px;
+}
+
+.category-Beauty {
+  height: 500px;
+  width: 300px;
+  margin-left: 60px;
+/*  background-color: #c1e1f3; */
+  float: left;
+  display: block;
+}
+
+.category-lifestyle {
+  height: 500px;
+  width: 300px;
+  margin-left: 30px;
+/*  background-color: #c1e1f3; */
+  float: left;
+  display: block;
+}
+
+.category-food {
+  height: 500px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 60px;
+/*  background-color: #c1e1f3; */
+  float: left;
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+.category-img {
+  border-radius: 10px;
+}
+
+.category-btn {
+  margin: 50px auto;
+	display: block;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #3F3B3A;
+	background: #fff;
+	border:1px solid #3F3B3A;
+  transition: all 1.2s;
+}
+
+.category-btn:hover {
+	 background: #3F3B3A;
+         color: #fff;
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+/* recommend */
+.recommend {
+  margin: 100px auto;
+  height: 800px;
+}
+
+.recommend h1 {
+  margin-bottom: 0;
+/*  background-color: #f3c1f2; */
+}
+
+.recommend-contents {
+  position: relative;
+  padding: 50px 0;
+}
+
+.recommend-square {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 540px;
+  top: 250px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+.recommend-copy span {
+  position: relative;
+  left: 620px;
+  top: 250px;
+  font-size: 36px;
+  color: #3F3B3A;
+}
+
+.recommend-copy p {
+  position: relative;
+  left: 620px;
+  top: 320px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #3F3B3A;
+}
+
+/* btn css */
+
+.recommend-btn {
+	display: block;
+	position: relative;
+	width: 160px;
+  left: 620px;
+  top: 370px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #3F3B3A;
+	background: #fff;
+	border:1px solid #3F3B3A;
+  transition: all 1.2s;
+}
+
+.recommend-btn:hover {
+	 background: #3F3B3A;
+         color: #fff;
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+
+/* brand */
+
+.brand {
+/*  background-color: #f3c1f2; */
+  position: relative;
+  margin: 100px auto;
+  height: 1100px;
+}
+
+.brand h1 {
+  font-size:56px;
+  margin-bottom: 0;
+/*  background-color: #f3c1f2; */
+  text-align: center;
+}
+
+.brand p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3F3B3A;
+}
+
+
+.brand-contents {
+  position: relative;
+  padding: 50px 0;
+}
+
+.brand-square {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 540px;
+  top: 250px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+.brand-copy span {
+  position: relative;
+  left: 620px;
+  top: 250px;
+  font-size: 36px;
+  color: #3F3B3A;
+}
+
+.brand-copy p {
+  position: relative;
+  left: 620px;
+  top: 320px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #3F3B3A;
+  text-align: left;
+}
+
+.brand-btn {
+	display: block;
+	position: relative;
+	width: 160px;
+  left: 620px;
+  top: 370px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #3F3B3A;
+	background: #fff;
+	border:1px solid #3F3B3A;
+  transition: all 1.2s;
+}
+
+.brand-btn:hover {
+	 background: #3F3B3A;
+         color: #fff;
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+/* mail Magazine */
+
+.mailmag {
+  margin: 0 auto;
+  padding: 20px 0;
+  height: 500px;
+  background-color: #3F3B3A;
+}
+
+.mag-copy h1 {
+  font-size:56px;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.mag-copy p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.e-mail {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.form {
+  border:0;
+  padding:10px;
+  font-size: 14px;
+  font-family:Arial, sans-serif;
+  color:#aaa;
+  border:solid 1px #ccc;
+  border-radius: 5px;
+  margin:0 0 20px;
+  width:300px;
+}
+
+.magbtn {
+border:solid 1px #ccc;
+width: 250px;
+padding:15px 30px;
+margin:0 0 20px;
+font-family:Arial, sans-serif;
+font-size:16px;
+text-transform:uppercase;
+font-weight:bold;
+color:#333;
+cursor:pointer;
+border-radius: 5px;
+transition: all 1.2s;
+}
+
+.magbtn:hover {
+  	 background: #3F3B3A;
+           color: #fff;
+  	 cursor: pointer;
+  	 text-decoration: none;
+  }
+
+/* footer */
+footer {
+  margin: 0 auto;
+  padding: 5px;
+  height: 30px;
+  text-align: center;
+}

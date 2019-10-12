@@ -621,4 +621,23 @@ h2 {
   width: 100%;
 }
 
+.slider{
+    width:600px;
+    height:300px;
+    margin:0 auto;
+}
+
+.slider ul{
+    margin: 0;
+    padding-left: 0;
+    list-style:none;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
+}
+.slider ul li{
+    width:600px;
+    height:300px;
+    animation-iteration-count:infinite;
+    animation-duration:24s;
+}
+
 }

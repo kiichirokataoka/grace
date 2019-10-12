@@ -570,3 +570,21 @@ footer {
   height: 30px;
   text-align: center;
 }
+
+/* レスポンシブ */
+
+@media screen and (max-width:600px) {
+
+body {
+  font-size: 3.5vw;
+}
+
+h1 {
+  font-size: 7.2vw;
+}
+
+h2 {
+  font-size: 6vw;
+}
+
+}

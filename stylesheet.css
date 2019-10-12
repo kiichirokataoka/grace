@@ -588,12 +588,12 @@ h2 {
 }
 
 .container {
-  max-width: 100%;
+  width: auto;
 }
 
 #header {
-  max-width: 100%;
-  margin:0 0;
+  width: auto;
+  margin:0 5%;
 }
 
 .header-logo{
@@ -616,30 +616,23 @@ h2 {
 }
 
 .header-screen {
-  max-width: 100%;
   margin: 50px auto;
 }
 
 .grace-img {
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .slider{
-    max-width: 100%;
-    height:300px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .slider ul {
-    max-width: 100%;
-    margin: 0 auto;
     padding-left: 0;
     list-style:none;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
 }
 .slider ul li{
-    margin: 0 auto;
     max-width: 100%;
     height:300px;
     animation-iteration-count:infinite;
@@ -651,19 +644,18 @@ h2 {
 }
 
 .square {
-  display: block;
-   max-width: 100%;
-   height: 500px;
+   width: 100%;
+   margin: 0 auto;
    border-radius: 5px;
    background-color: #ffffff;
    opacity: 0.8;
-   float: left;
 
 }
 
 .header-copy span {
   font-size: 18px;
   color: #3F3B3A;
+  text-align: center;
 }
 
 .header-copy p {

@@ -588,13 +588,13 @@ h2 {
 }
 
 #header {
-  width:auto;
+  max-width: 100%;
   margin:0 0;
 }
 
 .header-logo{
   float: none;
-  margin-top: 60px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -613,12 +613,13 @@ h2 {
 
 .header-screen {
   margin-top: 40px;
-  width: 100%;
-
+  width: auto;
+  margin: 50px auto;
 }
 
 .grace-img {
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .slider{
@@ -628,12 +629,13 @@ h2 {
 }
 
 .slider ul{
-    margin: 0;
+    margin: 0 auto;
     padding-left: 0;
     list-style:none;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
 }
 .slider ul li{
+    margin: 0 auto;
     max-width: 100%;
     height:300px;
     animation-iteration-count:infinite;
@@ -645,11 +647,13 @@ h2 {
 }
 
 .square {
+  display: block;
    max-width: 100%;
    height: 500px;
    border-radius: 5px;
    background-color: #ffffff;
    opacity: 0.8;
+   float: left;
 
 }
 

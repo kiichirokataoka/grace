@@ -598,4 +598,20 @@ h2 {
   text-align: center;
 }
 
+.grace-nav {
+  float: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.header-screen {
+  margin-top: 40px;
+  width: 100%;
+  padding: 35px 0 0 0;
+}
+
+.grace-img {
+  width: 100%;
+}
+
 }

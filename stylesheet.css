@@ -632,7 +632,7 @@ h2 {
 .header-screen {
   max-width: 100%;
   margin-top: 50px;
-  height: 700px;
+  height: 300px;
   position: ;
 /*  background-color: #c1e1f3; */
 }
@@ -707,7 +707,7 @@ h2 {
 
 .square {
    width: 50%;
-   height: 500px;
+   height: 200px;
    left: 50%;
    top: 150px;
    border-radius: 15px 0;
@@ -733,24 +733,33 @@ h2 {
 
 /* ここからコンテンツ */
 article {
-  width: 1080px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 0;
 }
 
 .whatsnew {
-  margin: 100px auto;
+  width: 100%;
+  margin: 50px auto;
   height: 800px;
 }
 
 .whatsnew h1 {
   margin-bottom: 0;
+  font-size: 20px;
+  text-align: center;
 /*  background-color: #f3c1f2; */
 }
 
+.whatsnew p {
+  text-align: center;
+  font-size: 12px;
+}
+
 .whatsnew-contents {
-  position: relative;
-  padding: 50px 0;
+  padding: 10px 0;
+  max-width: 100%;
+  margin: 0 5px;
   }
 
 
@@ -758,59 +767,60 @@ article {
 /* ホバーエフェクト */
 
 .contents-animation {
-  position: absolute;
-	overflow: hidden;
-	width: 700px;
-	height: 400px;
-  left: 50px;
+	width: 100%;
+  margin: 0 0;
+  padding: 0;
+	height: 200px;
+  left: 0;
   border-radius: 15px;
-  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));
-  transition-duration: 1.5s;
+  filter: initial;
+  transition-duration: initial;
 }
 
 .contents-animation:hover {
-  transform:translateY(-15px);
-  transition-duration: 1.5s;
+  transform: initial;
+  transition-duration: initial;
 }
 
 .contents-animation img {
-  display: block;
-	transition-duration: 1.5s;
+  max-width: 100%;
+  display: initial;
+	transition-duration: initial;
 }
 
 .contents-animation img:hover {
-	transform: scale(1.1);
-	transition-duration: 1.5s;
+	transform: initial;
+	transition-duration: initial;
 }
 
 /* ホバーエフェクト 終わり */
 
 
 .new-square {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  left: 540px;
-  top: 250px;
-  border-radius: 15px;
-  background-color: #ffffff;
-  opacity: 0.8;
+  width: initial;
+  height: initial;
+  left: initial;
+  top: initial;
+  border-radius: initial;
+  background-color: initial;
+  opacity: initial;
 }
 
 .whatsnew-copy span {
-  position: relative;
-  left: 620px;
-  top: 250px;
-  font-size: 36px;
+  text-align: center;
+  left: auto;
+  top: 200px;
+  font-size: 16px;
   color: #3F3B3A;
+
 }
 
 .whatsnew-copy p {
-  position: relative;
-  left: 620px;
-  top: 320px;
+  text-align: center;
+  left: 0px;
+  top: 220px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 12px;
   color: #3F3B3A;
 }
 
@@ -818,10 +828,9 @@ article {
 
 .contents_btn {
 	display: block;
-	position: relative;
 	width: 160px;
-  left: 620px;
-  top: 370px;
+  left: 0px;
+  top: 240px;
 	padding: 0.8em;
 	text-align: center;
 	text-decoration: none;

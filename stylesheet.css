@@ -594,6 +594,10 @@ h2 {
   font-size: 6vw;
 }
 
+.wrap {
+  overflow: hidden;
+}
+
 .container {
   max-width: 100%;
   margin: 0 auto;
@@ -739,9 +743,10 @@ article {
 }
 
 .whatsnew {
-  width: 100%;
+  max-width: 100%;
   margin: 50px auto;
   height: 600px;
+  overflow: hidden;
 }
 
 .whatsnew h1 {
@@ -856,6 +861,8 @@ article {
 .category {
 /*  background-color: #f3c1f2;*/
   position: initial;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .category h1 {
@@ -945,8 +952,10 @@ article {
 
 /* recommend */
 .recommend {
+  max-width: 100%;
   margin: 50px auto;
   height: 800px;
+  overflow: hidden;
 }
 
 .recommend h1 {

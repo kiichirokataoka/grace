@@ -741,7 +741,7 @@ article {
 .whatsnew {
   width: 100%;
   margin: 50px auto;
-  height: 800px;
+  height: 600px;
 }
 
 .whatsnew h1 {
@@ -751,6 +751,8 @@ article {
 /*  background-color: #f3c1f2; */
 }
 
+
+
 .whatsnew p {
   text-align: center;
   font-size: 12px;
@@ -759,7 +761,7 @@ article {
 .whatsnew-contents {
   padding: 10px 0;
   max-width: 100%;
-  margin: 0 5px;
+  margin: 0 0px;
   }
 
 
@@ -795,6 +797,9 @@ article {
 
 /* ホバーエフェクト 終わり */
 
+.whatsnew-copy {
+  text-align: center;
+}
 
 .new-square {
   width: initial;
@@ -807,12 +812,10 @@ article {
 }
 
 .whatsnew-copy span {
-  text-align: center;
-  left: auto;
+  left: 0px;
   top: 200px;
   font-size: 16px;
   color: #3F3B3A;
-
 }
 
 .whatsnew-copy p {
@@ -838,6 +841,7 @@ article {
 	background: #fff;
 	border:1px solid #3F3B3A;
   transition: all 1.2s;
+  margin: 0 auto;
 }
 
 .contents_btn:hover {

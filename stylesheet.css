@@ -855,30 +855,31 @@ article {
 
 .category {
 /*  background-color: #f3c1f2;*/
-  position: relative;
+  position: initial;
 }
 
 .category h1 {
-  font-size:56px;
+  font-size:24px;
   margin-bottom: 0;
   text-align: center;
 }
 
 .category p {
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 12px;
+  margin-bottom: 24px;
   text-align: center;
   color: #3F3B3A;
 }
 
 .category-contents {
+  max-width: 100%;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .category-contents h2 {
-  font-size: 36px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -888,8 +889,8 @@ article {
 
 .category-Beauty {
   height: 500px;
-  width: 300px;
-  margin-left: 60px;
+  width: 100%;
+  margin-left: 0px;
 /*  background-color: #c1e1f3; */
   float: left;
   display: block;
@@ -923,7 +924,7 @@ article {
 }
 
 .category-btn {
-  margin: 50px auto;
+  margin: 20px auto;
 	display: block;
 	width: 160px;
 	padding: 0.8em;

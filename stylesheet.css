@@ -47,7 +47,6 @@ h1 {
 .header-screen {
   height: 700px;
   position: relative;
-/*  background-color: #c1e1f3; */
 }
 
 
@@ -162,7 +161,6 @@ article {
 
 .whatsnew h1 {
   margin-bottom: 0;
-/*  background-color: #f3c1f2; */
 }
 
 .whatsnew-contents {
@@ -258,7 +256,6 @@ article {
 /* カテゴリー */
 
 .category {
-/*  background-color: #f3c1f2;*/
   position: relative;
 }
 
@@ -294,7 +291,6 @@ article {
   height: 500px;
   width: 300px;
   margin-left: 60px;
-/*  background-color: #c1e1f3; */
   float: left;
   display: block;
 }
@@ -303,7 +299,6 @@ article {
   height: 500px;
   width: 300px;
   margin-left: 30px;
-/*  background-color: #c1e1f3; */
   float: left;
   display: block;
 }
@@ -313,7 +308,6 @@ article {
   width: 300px;
   margin-left: 30px;
   margin-right: 60px;
-/*  background-color: #c1e1f3; */
   float: left;
   display: block;
 }
@@ -354,7 +348,6 @@ article {
 
 .recommend h1 {
   margin-bottom: 0;
-/*  background-color: #f3c1f2; */
 }
 
 .recommend-contents {
@@ -418,7 +411,6 @@ article {
 /* brand */
 
 .brand {
-/*  background-color: #f3c1f2; */
   position: relative;
   margin: 100px auto;
   height: 1100px;
@@ -427,7 +419,6 @@ article {
 .brand h1 {
   font-size:56px;
   margin-bottom: 0;
-/*  background-color: #f3c1f2; */
   text-align: center;
 }
 
@@ -638,7 +629,6 @@ h2 {
   margin-top: 50px;
   height: 400px;
   position: ;
-/*  background-color: #c1e1f3; */
 }
 
 
@@ -753,7 +743,6 @@ article {
   margin-bottom: 0;
   font-size: 20px;
   text-align: center;
-/*  background-color: #f3c1f2; */
 }
 
 
@@ -859,7 +848,6 @@ article {
 /* カテゴリー */
 
 .category {
-/*  background-color: #f3c1f2;*/
   position: initial;
   max-width: 100%;
   overflow: hidden;
@@ -898,7 +886,6 @@ article {
   height: 400px;
   width: 100%;
   margin-left: 0px;
-/*  background-color: #c1e1f3; */
   float: left;
   display: block;
 }
@@ -907,7 +894,6 @@ article {
   height: 400px;
   width: 300px;
   margin-left: 30px;
-/*  background-color: #c1e1f3; */
   float: left;
   display: block;
 }
@@ -917,7 +903,6 @@ article {
   width: 300px;
   margin-left: 30px;
   margin-right: 60px;
-/*  background-color: #c1e1f3; */
   float: left;
   display: block;
 }
@@ -962,7 +947,6 @@ article {
   margin-bottom: 0;
   font-size: 24px;
   text-align: center;
-/*  background-color: #f3c1f2; */
 }
 
 .recommend p {
@@ -1043,7 +1027,6 @@ article {
 .brand h1 {
   font-size: 24px;
   margin-bottom: 0;
-/*  background-color: #f3c1f2; */
   text-align: center;
 }
 
